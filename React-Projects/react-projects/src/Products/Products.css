@@ -1,0 +1,76 @@
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    z-index: 1;
+}
+
+.card{
+    margin: 20px;
+    border: 2px solid #ededed;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card-image{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 1rem;
+    object-fit: scale-down;
+    aspect-ratio: 1/1;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    width: 300px;
+}
+
+.card-reviews{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.15rem;
+    color: #000;
+}
+
+.rating-star{
+    color: #d5ab55;
+}
+
+.total-reviews{
+    font-size: 0.9rem;
+    color: #000;
+    margin-left: 10px;
+}
+
+.card-price{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.price del{
+    color: #707070;
+}
+
+.bag{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.bag-icon{
+    color: #535353;
+    font-size: 1.6rem;
+}
